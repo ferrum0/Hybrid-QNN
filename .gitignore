@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+results/*.png
+docs/*.aux
+docs/*.log
+docs/*.toc
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
